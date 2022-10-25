@@ -8,7 +8,6 @@
 #wrapper{
     width: 100vw;
     height: 100vh;
-    padding-top: 2rem;
     background-color: #eeeeee;
     overflow-x: hidden;
 }
@@ -20,17 +19,32 @@
     justify-content: flex-end;
     width: 28rem;
     padding-left: 3.5rem;
+    padding-top: 1rem;
 }
 
 .navbar{
     display: flex;
     justify-content: flex-end;
-    margin-top: -2.5rem;
+    margin-top: -2rem;
     margin-right: 6rem;
     gap: 8rem;
     font-size: large;
     
 }
+
+header{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    background-color: #eeeeee;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
 
 .intro{
     margin-top: 3rem;
@@ -95,13 +109,83 @@ iframe{
     width: 50rem;
     height: 25rem;
     margin-top: 4rem;
-    margin-left: 35rem;
+    margin-left: 30rem;
+}
+
+#pricing{
+     height: 60%;
+     display: flex;
+     padding-left: 16rem;
+     gap: 2rem;
 }
 
 .product{
     display: flex;
     flex-direction: column;
+    align-items: center;
     border: 1px solid black;
-    width: 30%;
+    width: 26%;
+    height: 65%;
+    margin-top: 7rem;
+    
+}
+
+.product div{
+    width: 100%;
+    height: 3rem;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: 500;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.product h2{
+    margin-top: 1rem;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product p{
+    margin-top: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+button{
+    width: 8rem;
+    height: 3rem;
+    font-weight: 400;
+    background-color: #f1c40f;
+    margin-top: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+footer{
+    width: 75%;
+    height: 12%;
+    background-color: #dddddd;
+    margin-left: 13rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.footer{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    gap: 2.8rem;
+    
     
 }
