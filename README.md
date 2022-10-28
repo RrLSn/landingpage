@@ -13,6 +13,10 @@ https://github.com/RrLSn/landingpage.git
 - HTML
 - CSS
 
+# Demo
+[preview](https://rawcdn.githack.com/RrLSn/landingpage/cee9bc0f7259b657f514f206b25f38760f6ab8d5/index.html)
+![screenshot](./media/logo.png)
+
 # Contact
 If you want to contact me, you can reach me at 
 - afolabisoditemitope@yahoo.com or 
