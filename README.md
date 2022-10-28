@@ -15,7 +15,7 @@ https://github.com/RrLSn/landingpage.git
 
 # Demo
 [preview](https://rawcdn.githack.com/RrLSn/landingpage/cee9bc0f7259b657f514f206b25f38760f6ab8d5/index.html)
-![screenshot](./media/logo.png)
+![screenshot](./media/Screenshot%202022-10-28%20145426.png)
 
 # Contact
 If you want to contact me, you can reach me at 
